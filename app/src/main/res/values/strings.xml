@@ -7,4 +7,18 @@
         <item>Gives Back To Charity</item>
         <item>Local Production</item>
     </string-array>
+    <string-array name="strings2">
+        <item>Bio degradable</item>
+        <item>Fair Wages</item>
+        <item>Gender Equal Hiring</item>
+        <item>Gives Back To Charity</item>
+        <item>Local changed</item>
+    </string-array>
+    <string-array name="strings3">
+        <item>Bio changed</item>
+        <item>Fair Wages</item>
+        <item>Gender Equal Hiring</item>
+        <item>Gives Back To Charity</item>
+        <item>Local hi</item>
+    </string-array>
 </resources>
