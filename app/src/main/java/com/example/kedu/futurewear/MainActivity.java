@@ -31,10 +31,10 @@ public class MainActivity extends AppCompatActivity {
                 ArrayList<Service> actorList1 = ((ServiceAdapter)listView1.getAdapter()).getSelectActorList();
                 ArrayList<Service> actorList2 = ((ServiceAdapter)listView2.getAdapter()).getSelectActorList();
                 ArrayList<Service> actorList3 = ((ServiceAdapter)listView3.getAdapter()).getSelectActorList();
+                actorList1.addAll(actorList2);
+                actorList1.addAll(actorList3);
+                Toast.makeText(MainActivity.this,"hi 123  "+actorList1.size(),Toast.LENGTH_LONG).show();
 
-                Toast.makeText(MainActivity.this,"hi 1 "+actorList1.size(),Toast.LENGTH_LONG).show();
-                Toast.makeText(MainActivity.this,"hi 2 "+actorList2.size(),Toast.LENGTH_LONG).show();
-                Toast.makeText(MainActivity.this,"hi 3 "+actorList3.size(),Toast.LENGTH_LONG).show();
             }
 
 
