@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Futurewear</string>
+    <string-array name="strings">
+        <item>Fair Trade Sourcing</item>
+        <item>Fair Wages</item>
+        <item>Gender Equal Hiring</item>
+        <item>Gives Back To Charity</item>
+        <item>Local Production</item>
+    </string-array>
+</resources>
